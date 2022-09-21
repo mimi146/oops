@@ -1,11 +1,12 @@
-package org.example;
+package org.example.bankTransfer;
 
 public class student {
     private  String name;
     private  int age;
 
     public  void setName(String name){
-        this.name = name;
+
+        this.name = name.trim();
     }
     public  void setAge(int age){
         this.age = age;
@@ -16,6 +17,7 @@ public class student {
         }
             return  "Not Eligible to vote";
     }
+
 
 
     public String getName() {
