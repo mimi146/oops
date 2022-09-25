@@ -1,6 +1,6 @@
 package Birds;
 
-public class swimmer  implements swimable{
+public class swimmer implements swimable{
 
 
     @Override

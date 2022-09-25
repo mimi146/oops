@@ -1,4 +1,4 @@
 package Birds;
 
-public enum BirdType {PARROT,SPARROW,PENGUIN;}
+public enum BirdType {PARROT,SPARROW,PENGUIN,EAGLE;}
 

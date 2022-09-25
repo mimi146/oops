@@ -1,14 +1,8 @@
 package org.example.bankTransfer;
 
 public class BankTransfer {
-
-
-    public BankTransfer() {
-
-    }
     private Integer number;
     private Integer balance;
-
     public BankTransfer(Integer number, Integer balance) {
         this.number = number;
         this.balance = balance;

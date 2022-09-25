@@ -15,6 +15,13 @@ public abstract class birds {
     String BeakType;
     String color;
     Double weight;
+
+    public BirdType getType() {
+        System.out.println(type);
+
+        return type;
+    }
+
     BirdType type;
 
 //    public birds(String size, String BeakType,String color, Double weight, BirdType type) {
